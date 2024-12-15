@@ -1,0 +1,13 @@
+.hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center 27%; /* Adjust the position of the image */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-img {
+      object-position: center; /* Adjust for mobile view */
+    }
+  }
+  
